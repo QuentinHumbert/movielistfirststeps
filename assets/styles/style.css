@@ -1,0 +1,33 @@
+/* Je dois connaitre 20% des sélecteurs CSS qui vont me permettre de faire 80% du CSS
+Je dois connaitre: les sélecteurs (ID et class et sélecteur par balise), taille de boite, les marges et
+les marges internes (Padding) et les techniques de positionnement (FlexBox et Grid) */
+
+/* Le header est en bleu, le logo à gauche et le bouton à droite de chaque côté de mon écran
+Le paragraphe et la fénétre d'ajout sont centrés sur la page sans touché au header et dispose d'une
+ombre portée avec des coins arrondis */
+
+header{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#emptyspot{
+    margin: auto;
+    margin-top: 50px; 
+    width: 30%;
+    height: 100px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin: auto;
+    width: 30%;
+    display: none;
+    box-shadow: 2px 2px 5px 2px #000000;
+    border-radius: 5px;
+}
